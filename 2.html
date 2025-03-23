@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Tập Layout - Bài 2</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: pink;
+        padding: 15px;
+        text-align: left;
+        color: white;
+      }
+      .header a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      .sidebar {
+        width: 200px;
+        background-color: #f1f1f1;
+        float: left;
+        height: 300px;
+        border-top: 20px solid white;
+      }
+      .sidebar a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+      }
+      .sidebar a:hover {
+        background-color: rgb(76, 144, 246);
+      }
+      .sidebar a.active {
+        background-color: #007bff;
+        color: white;
+      }
+      .content {
+        margin-left: 220px;
+        padding: 20px;
+      }
+      .title-bar {
+        background-color: blue;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .footer {
+        background-color: #33d9f3;
+        padding: 15px;
+        text-align: left;
+        margin-top: 20px;
+        color:white;
+      }
+      .sidebar a {
+        border: 3px solid white;
+      }
+      .header a:hover {
+        background-color: #09f683;
+        height: 300px;
+        width: 300px;
+        padding: 15px;
+        text-align: left;
+      }
+      .header a.active {
+        background-color: green;
+        height: 300px;
+        width: 300px;
+        padding: 15px;
+        text-align: left;
+        margin-left: -15px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="1.html" target="_self">bài 1</a>
+    <a href="2.html" target="_self">bài 2</a>
+    <a href="3.html" target="_self">bài 3</a>
+    <a href="4.html" target="_self">bài 4</a>
+    <a href="5.html" target="_self">bài 5</a>
+    <div class="header">
+      <a href="#" class="active">Home</a>
+      <a href="#">News</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </div>
+    <div class="sidebar">
+      <a href="#">The Flight</a>
+      <a href="#" class="active">The City</a>
+      <a href="#">The Island</a>
+      <a href="#">The Food</a>
+      <a href="#">The People</a>
+      <a href="#">The History</a>
+      <a href="#">The Oceans</a>
+    </div>
+    <div class="content">
+      <div class="title-bar">The City</div>
+      <h2>Chania</h2>
+      <p>
+        Chania is the capital of the Chania region on the island of Crete. The
+        city can be divided in two parts, the old town and the modern city.
+      </p>
+      <p>You will learn more about responsive web pages in a later chapter.</p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        eligendi excepturi architecto, delectus laborum nesciunt necessitatibus
+        doloremque pariatur blanditiis aliquid eos quam maxime quas iste facere
+        praesentium quia odio dignissimos!
+      </p>
+      <p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+        eligendi excepturi architecto, delectus laborum nesciunt necessitatibus
+        doloremque pariatur blanditiis aliquid eos quam maxime quas iste facere
+        praesentium quia odio dignissimos!
+      </p>
+    </div>
+    <div class="footer">Footer Text</div>
+  </body>
+</html>
